@@ -52,7 +52,10 @@ const Content = () => {
           <span class="section-number-3">3.1</span> Face Recognition Project</h3>
           <div class="outline-text-3" id="text-face-recognition-project">
             <p>
-              face recognition project info...
+              I’m working on a Web App that takes an image as input and looks for faces using the <code>Clarifai API</code>. The App is built on <code>React</code> Framework on the Front End and uses a <code>Node.js + Express.js</code> server on the Back End. The App lets the user register and keeps count of the images that has been identified. The server is connected to a <code>PostgreSQL</code> to save the user’s data. The App was deployed on <code>Heroku</code>, the web address is:
+            </p>
+            <p>
+              <a href="https://da-smart-brain.herokuapp.com/">https://da-smart-brain.herokuapp.com/</a>
             </p>
           </div>
         </div>
