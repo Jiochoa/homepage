@@ -1,44 +1,3 @@
-/* body {
-  background: #e3dedd;
-  color: #404040;
-  font-family: "Lato", "proxima-nova", "Helvetica Neue", Arial, sans-serif;
-  font-weight: normal;
-  margin: 0;
-  min-height: 100%;
-  overflow-x: hidden;
-}
-
-
-#table-of-contents {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 25%;
-  overflow-x: hidden;
-  overflow-y: scroll;
-  height: 100%;
-  background: #343131;
-  z-index: 200;
-  scrollbar-base-color: #1F1D1D;
-  scrollbar-arrow-color: #b3b3b3;
-  scrollbar-shadow-color: #1F1D1D;
-  scrollbar-track-color: #343131;
-}
-
-#table-of-contents h2 a {
-  display: none;
-}
-
-#table-of-contents h2 {
-  z-index: 200;
-  background-color: #715ab1;
-  text-align: center;
-  padding: 0.809em;
-  display: block;
-  color: #fcfcfc;
-  font-size: 100%;
-  margin-bottom: 0.809em
-} */
 
 @import url(https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic|Roboto+Slab:400,700|Inconsolata:400,700);
 @import url(http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css);
@@ -51,6 +10,7 @@ h1, h2, h3, h4, h5, h6, legend {
 h1 {
     color: #4e3163;
     font-size: 175%;
+    text-align: center;
 }
 
 .subtitle {
@@ -1016,6 +976,7 @@ footer p {
     font-size: 90%;
     z-index: 400;
     padding: 12px;
+    text-align: center;
 }
 
 @media screen and (max-width: 768px) {
@@ -1435,7 +1396,7 @@ pre.src {
     font-weight: bold;
 }
 
-.org-border {}
+/* .org-border {} */
 
 .org-buffer-menu-buffer {
     /* buffer-menu-buffer */
@@ -1574,7 +1535,7 @@ pre.src {
     text-decoration: underline;
 }
 
-.org-cider-instrumented {}
+/* .org-cider-instrumented {} */
 
 .org-cider-repl-input {
     /* cider-repl-input-face */
@@ -1587,7 +1548,7 @@ pre.src {
     font-weight: bold;
 }
 
-.org-cider-repl-result {}
+/* .org-cider-repl-result {} */
 
 .org-cider-repl-stderr {
     /* cider-repl-stderr-face */
@@ -1706,7 +1667,7 @@ pre.src {
     background-color: #ecf3ec;
 }
 
-.org-company-echo {}
+/* .org-company-echo {} */
 
 .org-company-echo-common {
     /* company-echo-common */
@@ -1881,7 +1842,7 @@ pre.src {
     font-style: italic;
 }
 
-.org-completions-common-part {}
+/* .org-completions-common-part {} */
 
 .org-completions-first-difference {
     /* completions-first-difference */
@@ -1948,7 +1909,7 @@ pre.src {
     color: #00008b;
 }
 
-.org-custom-documentation {}
+/* .org-custom-documentation {} */
 
 .org-custom-face-tag {
     /* custom-face-tag */
@@ -2265,7 +2226,7 @@ pre.src {
     color: #ff0000;
 }
 
-.org-erc-default {}
+/* .org-erc-default {} */
 
 .org-erc-direct-msg {
     /* erc-direct-msg-face */
@@ -2288,7 +2249,7 @@ pre.src {
     background-color: #e5e5e5;
 }
 
-.org-erc-hl-nicks-nick-base {}
+/* .org-erc-hl-nicks-nick-base {} */
 
 .org-erc-input {
     /* erc-input-face */
@@ -2381,7 +2342,7 @@ pre.src {
     color: #a52a2a;
 }
 
-.org-escape-glyph-1 {}
+/* .org-escape-glyph-1 {} */
 
 .org-eval-sexp-fu-flash {
     /* eval-sexp-fu-flash */
@@ -2432,18 +2393,18 @@ pre.src {
     text-decoration: underline;
 }
 
-.org-evil-search-highlight-persist-highlight {}
+/* .org-evil-search-highlight-persist-highlight {} */
 
 .org-eyebrowse-mode-line-active {
     /* eyebrowse-mode-line-active */
     font-weight: bold;
 }
 
-.org-eyebrowse-mode-line-delimiters {}
+/* .org-eyebrowse-mode-line-delimiters {}
 
 .org-eyebrowse-mode-line-inactive {}
 
-.org-eyebrowse-mode-line-separator {}
+.org-eyebrowse-mode-line-separator {} */
 
 .org-ffap {
     /* ffap */
@@ -2535,7 +2496,7 @@ pre.src {
     color: #7f7f7f;
 }
 
-.org-fixed-pitch {}
+/* .org-fixed-pitch {} */
 
 .org-flx-highlight {
     /* flx-highlight-face */
@@ -2614,7 +2575,7 @@ pre.src {
     font-weight: bold;
 }
 
-.org-git-rebase-description {}
+/* .org-git-rebase-description {} */
 
 .org-git-rebase-hash {
     /* git-rebase-hash */
@@ -2991,7 +2952,7 @@ pre.src {
     background-color: #fbf8ef;
 }
 
-.org-helm-prefarg {}
+/* .org-helm-prefarg {} */
 
 .org-helm-resume-need-update {
     /* helm-resume-need-update */
@@ -3053,7 +3014,7 @@ pre.src {
     background-color: #efeae9;
 }
 
-.org-hl-paren {}
+/* .org-hl-paren {} */
 
 .org-hlt-property-highlight {
     /* hlt-property-highlight */
@@ -3318,7 +3279,7 @@ pre.src {
     font-style: italic;
 }
 
-.org-js2-instance-member {}
+/* .org-js2-instance-member {} */
 
 .org-js2-private-function-call {
     /* js2-private-function-call */
@@ -3593,7 +3554,7 @@ pre.src {
     color: #7f7f7f;
 }
 
-.org-magit-filename {}
+/* .org-magit-filename {} */
 
 .org-magit-hash {
     /* magit-hash */
@@ -3809,7 +3770,7 @@ pre.src {
     background-color: #bfefff;
 }
 
-.org-makefile-shell {}
+/* .org-makefile-shell {} */
 
 .org-makefile-space {
     /* makefile-space */
@@ -3829,14 +3790,14 @@ pre.src {
     font-weight: bold;
 }
 
-.org-mcXcursor {}
+/* .org-mcXcursor {} */
 
 .org-mcXregion {
     /* mc/region-face */
     background-color: #d3d3e7;
 }
 
-.org-menu {}
+/* .org-menu {} */
 
 .org-message-cited-text {
     /* message-cited-text */
@@ -3920,7 +3881,7 @@ pre.src {
     font-weight: bold;
 }
 
-.org-mode-line-highlight {}
+/* .org-mode-line-highlight {} */
 
 .org-mode-line-inactive {
     /* mode-line-inactive */
@@ -3928,7 +3889,7 @@ pre.src {
     background-color: #fbf8ef;
 }
 
-.org-mouse {}
+/* .org-mouse {} */
 
 .org-nameless {
     /* nameless-face */
@@ -4296,7 +4257,7 @@ pre.src {
     font-weight: bold;
 }
 
-.org-org-property-value {}
+/* .org-org-property-value {} */
 
 .org-org-quote {
     /* org-quote */
@@ -4554,7 +4515,7 @@ pre.src {
     background-color: #d3d3e7;
 }
 
-.org-scroll-bar {}
+/* .org-scroll-bar {} */
 
 .org-secondary-selection {
     /* secondary-selection */
@@ -4662,7 +4623,7 @@ pre.src {
     background-color: #aaffaa;
 }
 
-.org-smerge-refined-changed {}
+/* .org-smerge-refined-changed {} */
 
 .org-smerge-refined-removed {
     /* smerge-refined-removed */
@@ -4896,7 +4857,7 @@ pre.src {
     color: #715ab1;
 }
 
-.org-variable-pitch {}
+/* .org-variable-pitch {} */
 
 .org-vertical-border {
     /* vertical-border */
@@ -5119,7 +5080,7 @@ pre.src {
     color: #1f71ab;
 }
 
-.org-web-mode-html-tag-bracket {}
+/* .org-web-mode-html-tag-bracket {} */
 
 .org-web-mode-html-tag-custom {
     /* web-mode-html-tag-custom-face */
@@ -5341,7 +5302,7 @@ pre.src {
     color: #b1951d;
 }
 
-.org-whitespace-tab {}
+/* .org-whitespace-tab {} */
 
 .org-whitespace-trailing {
     /* whitespace-trailing */
@@ -5394,6 +5355,6 @@ pre.src {
     color: #666666;
 }
 
-.org-window-numbering {}
+/* .org-window-numbering {}
 
-.org-yas--field-debug {}
+.org-yas--field-debug {} */
